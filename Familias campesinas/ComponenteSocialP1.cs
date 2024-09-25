@@ -22,7 +22,7 @@ namespace Familias_campesinas
             if (string.IsNullOrEmpty(txtNombreApellidoResponsable.Text) ||
                 string.IsNullOrEmpty(numNumeroDocumento.Text) ||
                 string.IsNullOrEmpty(numNumeroContacto.Text) ||
-                string.IsNullOrEmpty(txtCorreo.Text)
+                string.IsNullOrEmpty(txtCorreo.Text))
             {
                 MessageBox.Show("Faltan campos por llenar", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }

@@ -30,7 +30,7 @@ namespace Familias_campesinas
             {
                 MessageBox.Show("Faltan campos por llenar", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-            else
+            else 
             {
                 ComponenteSocialP1 componenteSocialP1 = new ComponenteSocialP1();
                 componenteSocialP1.Show();
